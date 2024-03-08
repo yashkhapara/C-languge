@@ -14,5 +14,5 @@ int main()
     c=180-a-b;
 
     printf("Third angle: %d degrees\n",c);
-
+    
 }

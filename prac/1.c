@@ -1,11 +1,21 @@
 #include<stdio.h>
 void main()
 {
-	printf("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
-	printf("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n* * \t\t\t\t\t\t\t   	* * \n");
-	printf("* *\t Name   :- Yash Khapara Pravinbhai,\n");
-	printf("* *\t Age    :- 19 year old.\n");
-	printf("* *\t School :- Red and white multimedia education.\n* *\n");
-	printf("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
-	printf("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
+	float a,b,c,d,e;
+
+	printf("Enter the original price=\n");
+	scanf("%f",&a);
+
+	printf("Enter the discount percentage=\n");
+	scanf("%f",&b);
+
+   d=100;
+   c=a*b;
+   e=c/d;
+   
+       
+
+    printf("Discount amount = %fx`x`x`x`x`\",e);
+
+
 }
