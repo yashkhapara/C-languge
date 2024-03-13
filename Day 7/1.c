@@ -1,9 +1,9 @@
 #include <stdio.h>
-
 int main()
 {
-    int a, b;
 
+    int a, b;
+                                                                    
     printf("Enter the first value: ");
     scanf("%d",&a);
 
@@ -14,5 +14,4 @@ int main()
         printf("%d is the minimum number.\n", a);
     else
         printf("%d is the minimum number.\n", b);
-
 }
