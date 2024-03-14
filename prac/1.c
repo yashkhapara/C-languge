@@ -1,21 +1,15 @@
 #include<stdio.h>
 void main()
 {
-	float a,b,c,d,e;
+	int a,b,c;
 
-	printf("Enter the original price=\n");
-	scanf("%f",&a);
+	printf("Enter the value of A =\n");
+	scanf("%d",&a);
+	printf("Enter the value of B =\n");
+	scanf("%d",&b);
+	printf("Enter the value of c =\n");
+	scanf("%d",&c);
 
-	printf("Enter the discount percentage=\n");
-	scanf("%f",&b);
-
-   d=100;
-   c=a*b;
-   e=c/d;
-   
-       
-
-    printf("Discount amount = %fx`x`x`x`x`\",e);
-
-
+    (a<b)?(a<c)?printf("A is small..."):printf("C is small..."):
+    (b<c)?printf("B is small..."):printf("C is small...");
 }
