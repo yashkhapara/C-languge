@@ -10,7 +10,7 @@ void main()
     scanf("%f", &unit);
 
     if(unit <= 50)
-    {
+    {   
         amount = unit * 0.50;
     }
     else if(unit <= 150)
@@ -26,10 +26,10 @@ void main()
        amount = 220 + ((unit-250) * 1.50);
     }
 
+
     charge = amount * 0.20;
     total  = amount + charge;
 
     printf("Electricity Bill = Rs. %.2f", total);
 
-   
 }
