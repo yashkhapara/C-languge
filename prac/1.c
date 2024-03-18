@@ -16,4 +16,4 @@ void  main()
 	printf("A is small..."):printf("B is small..."):
 	(b<c)?printf("B is small..."):printf("C is small...");
 
-}
+} 	
