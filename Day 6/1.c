@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 void main()
 {
@@ -15,4 +16,5 @@ void main()
 	e=c/d;
 
 	printf("Discount amount :%d",e);
+	 
 }

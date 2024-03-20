@@ -1,6 +1,8 @@
+// Write a Program to print the sum of all numbers from 1 to N using for loop.
+
 #include <stdio.h>
 
-int main() {
+void main() {
 
     int n, sum = 0;
 
