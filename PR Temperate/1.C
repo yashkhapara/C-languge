@@ -6,7 +6,6 @@ void main()
     int step;  
 
     do {
-
      printf("%c ",alphabet);
      step = 4;
      alphabet += step;
