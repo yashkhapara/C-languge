@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-    int y=11;
+    int y=11;/
 
 	for(int i=1;i<=5;i++)
 	{
