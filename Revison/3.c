@@ -7,9 +7,9 @@ void main()
         {
             printf(" ");
         }
-        for(int j=i;j<=5;j++)
+        for(int rdxj=i;j<=5;j++)
     {
-        printf("%d",j);
+        printf("%d" ,j);
     }
     for(int j=4;j>=i;j--)
     {
