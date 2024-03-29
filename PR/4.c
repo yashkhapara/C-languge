@@ -18,7 +18,7 @@ void main()
             printf(" "); 
         } 
   
-        for (int k = 0; k < 2 * 4 - a; k++) { 
+        for (int k = 0; k < 2 * 40 - a; k++) { 
             printf("* "); 
         } 
         printf("\n"); 
